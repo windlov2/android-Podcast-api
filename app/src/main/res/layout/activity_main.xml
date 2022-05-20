@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btn_recommend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="추천 정보 조회" />
+
+    <Button
+        android:id="@+id/btn_ranking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="인기팟 조회" />
+
+    <Button
+        android:id="@+id/btn_subscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="구독팟 조회" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="채널 키워드 검색" />
+
+    <Button
+        android:id="@+id/btn_episode_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="에피소드 리스트 조회" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+</LinearLayout>
